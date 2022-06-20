@@ -35,3 +35,9 @@ function disemvowel(str) {
   function greet(name){
     return `Hello, ${name} how are you doing today?`
   }
+
+  // Make a simple function called greet that returns the most-famous "hello world!".
+
+  function greet(){
+    return "hello world!"
+  }
