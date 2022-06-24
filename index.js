@@ -41,3 +41,41 @@ function disemvowel(str) {
   function greet(){
     return "hello world!"
   }
+
+// Write a function that takes an array of words and smashes them together into a sentence and returns the sentence. You can ignore any need to sanitize words or add punctuation, but you should add spaces between each word. Be careful, there shouldn't be a space at the beginning or the end of the sentence!
+
+// Example
+// ['hello', 'world', 'this', 'is', 'great']  =>  'hello world this is great'
+
+function smash (words) {
+  return words.join(" ")
+};
+
+// Now you have to write a function that takes an argument and returns the square of it.
+
+function square(num){
+  return num * num
+}
+
+// Messi's Goal Total
+// Use variables to find the sum of the goals Messi scored in 3 competitions
+
+// Information
+// Messi goal scoring statistics:
+
+// Competition	Goals
+// La Liga	43
+// Champions League	10
+// Copa del Rey	5
+// Task
+// Create these three variables and store the appropriate values using the table above:
+// laLigaGoals
+// championsLeagueGoals
+// copaDelReyGoals
+// Create a fourth variable named totalGoals that stores the sum of all of Messi's goals for this year.
+
+var laLigaGoals = 43
+var championsLeagueGoals = 10
+var copaDelReyGoals = 5
+
+var totalGoals = laLigaGoals + championsLeagueGoals + copaDelReyGoals
