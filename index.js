@@ -79,3 +79,26 @@ var championsLeagueGoals = 10
 var copaDelReyGoals = 5
 
 var totalGoals = laLigaGoals + championsLeagueGoals + copaDelReyGoals
+
+// Terminal game move function
+// In this game, the hero moves from left to right. The player rolls the dice and moves the number of spaces indicated by the dice two times.
+
+// Create a function for the terminal game that takes the current position of the hero and the roll (1-6) and return the new position.
+
+// Example:
+// move(3, 6) should equal 15
+
+function move (position, roll) {
+  return roll * 2 + position
+}
+
+// Complete function saleHotdogs/SaleHotDogs/sale_hotdogs, function accept 1 parameters:n, n is the number of customers to buy hotdogs, different numbers have different prices (refer to the following table), return a number that the customer need to pay how much money.
+
+// number	price (cents)
+// n < 5	100
+// n >= 5 and n < 10	95
+// n >= 10	90
+
+function saleHotdogs(n){
+  return n*(n<5?100:n<10?95:90);
+}
